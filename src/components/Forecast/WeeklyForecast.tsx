@@ -4,7 +4,6 @@ import { WeeklyForecastCards } from '.'
 
 export const WeeklyForecast: FC = (): ReactElement => {
   const { currentCity: cityLocation } = useContext(DataContext)
-  console.log(cityLocation)
 
   return (
     <section className='flex flex-col gap-2 px-24'>
