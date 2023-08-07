@@ -3,7 +3,7 @@ import { currentCity } from 'types/current'
 import { GeolocationProps } from 'types/location'
 
 const url = (lat: number, lon: number) =>
-  `http://localhost:5173/api/current?lat=${lat}&lon=${lon}`
+  `https://weappther-api-production.up.railway.app/api/current?lat=${lat}&lon=${lon}`
 
 export const useCurrentLocation = ({ lat, lon }: GeolocationProps) => {
   const [data, setData] = useState<currentCity>()
