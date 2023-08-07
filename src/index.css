@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.ttf') format('woff2');
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background: radial-gradient(circle at 40% 40%, #17002e 0%, #0c0019 25%, #050505 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  min-height: 100vh;
+}
+
